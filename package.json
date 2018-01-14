@@ -1,0 +1,11 @@
+{
+  "name": "week1",
+  "version": "0.0.0",
+  "description": "Code in class for week 1 Node.js module #class03",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "T1ish",
+  "license": "ISC"
+}
