@@ -29,8 +29,15 @@ jill.call();
 console.log(JSON.stringify(jimmy));
 console.log(jimmy instanceof Contact);
 
-let contacts = new ContactList();
+let contacts = new ContactList("contacts1.json");
+
 contacts.addContact(jimmy);
 contacts.addContact({name: "Jane"});
 contacts.addContact(new Contact("Jane"));
+
 console.log(contacts);
+
+contacts.save()
+.then(() => { console.log("Contacts written") })
+.catch(console.log);
+
